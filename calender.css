@@ -1,0 +1,87 @@
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.weekend {
+  background-color: #f0f0f0;
+}
+
+.has-tasks {
+  background-color: #ffcccc; 
+}
+
+.professional {
+  background-color: #aad4ff; 
+}
+
+.personal {
+  background-color: #c7ecc7; 
+}
+
+.rest {
+  background-color: #ffe0b3; /
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input label,
+.task-input input,
+.task-input select,
+.task-input button {
+  margin-bottom: 10px;
+}
+
+.task-input label {
+  display: block;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.task-input button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
+
+.summary-panel {
+  margin-top: 20px;
+}
+
+.summary-panel h2 {
+  margin-bottom: 10px;
+}
+
+.summary-panel p {
+  margin-bottom: 5px;
+}
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  margin-bottom: 10px;
+}
